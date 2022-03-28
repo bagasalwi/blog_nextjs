@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.scroll-hidden::-webkit-scrollbar {
+    height: 0px;
+    background: transparent !important; /* make scrollbar transparent */
+}
